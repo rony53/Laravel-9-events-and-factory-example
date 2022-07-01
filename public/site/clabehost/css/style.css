@@ -1,0 +1,117 @@
+/* ======== Domain Search Start ======== */
+
+.header_search_box {
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+	padding:60px 0px;
+}
+.header_search_box input[type="text"] {
+	float: left;
+	width: 70%;
+	border: 1px solid #523ee8;
+	padding: 11px 12px 12px;
+	color: #666;
+}
+.header_search_box select {
+	float: left;
+	width: 15%;
+	border: 1px solid #523ee8;
+	border-left:0px;
+	border-right:0px;
+	padding: 11px 20px 11px 10px;
+	color: #666;
+	font-size: 16px;
+	font-family: inherit;
+	line-height: normal;
+	background-color: #FFF;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+	background-size: 9px 6px;
+	background-position: right -1rem center;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+}
+.header_search_box input[type="submit"] {
+	float: left;
+	width: 15%;
+	border: 0;
+	background: #523ee8;
+	color: #FFF;
+	line-height: 45px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.header_search_box ul {
+	margin:10px 0px 0px 0px;
+	padding:0px;
+}
+.header_search_box ul li {
+	float: left;
+	padding-right: 30px;
+	line-height: 18px;
+}
+.header_search_box ul li a strong {
+	font-weight: 500;
+	color: #ee2d50;
+	padding-left:5px;
+}
+.header_search_box ul li a:hover {
+	text-decoration:none;
+}
+.domain-promo {
+	margin-top: 60px;
+	background:#FFF;
+	box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+	padding: 20px;
+	position: relative;
+	border: 2px solid transparent;
+	transition: all 0.5s ease-in-out 0s;
+	overflow: hidden;
+	text-align:center;
+}
+.domain-promo:hover {
+	border-color: #523ee8;
+}
+.domain-promo h3 {
+	padding: 0 0 20px 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+}
+.domain-promo h4 {
+	padding: 0 0 20px 0;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 600;
+}
+.domain-promo p {
+	font-size: 15px;
+}
+.domain-promo .promo-price {
+	font-size: 50px;
+	font-weight: 600;
+}
+.domain-promo .main-price {
+	text-decoration: line-through;
+	font-size: 32px;
+	font-weight: 500;
+	color: #666;
+}
+.domain-promo a {
+	display: inline-block;
+	background: #f36727;
+	color: #FFF;
+	padding: 10px 35px;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+}
+.domain-promo a:hover {
+	text-decoration:none;
+}
+
+/* ======== Domain Search End ======== */
